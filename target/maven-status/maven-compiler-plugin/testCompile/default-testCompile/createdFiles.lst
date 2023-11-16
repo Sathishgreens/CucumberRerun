@@ -1,0 +1,8 @@
+org\pom\SearchHotelPOM.class
+org\stepdefinitions\StepDefinition.class
+org\runner\TestRunner.class
+org\pom\FacebookPOM.class
+org\hooks\HooksClass.class
+org\pom\LoginPOM.class
+org\pom\PageManager.class
+org\baseclass\BaseClass.class
