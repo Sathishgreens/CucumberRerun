@@ -5,7 +5,7 @@ Feature: Checking All Login Functions
 
   Scenario: Checking UserName and Password
     Given User Enters UserName and Passwordsss
-    Then Click Login
+    Then Click Login and Take Screenshot
 
   Scenario: Checking Forgot Password
     Given User Clicks Forgot Password
