@@ -144,6 +144,11 @@ public class StepDefinition extends BaseClass {
 	public void background_given() {
 	    System.out.println("BackGround Given");
 	}
+	
+	@Then("Click Login and Take Screenshot")
+	public void loginTakeScreenshot(){
+		System.out.println("Click Login and Take Screenshot");
+	}
 
 
 
