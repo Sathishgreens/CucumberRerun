@@ -10,3 +10,10 @@ Feature: Checking Login Functions
     And User Clicks Login Button
     Then Take Scrrenshot
     And Assert the Result
+	
+
+
+
+  Scenario: Create New Account
+	Given User Clicks Create New Account
+	Then Validate Result
