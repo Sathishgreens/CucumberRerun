@@ -9,3 +9,8 @@ Feature: Checking Login Functions
       | Velmurugan |     9999 |
     And User Clicks Login Button
     Then Take Scrrenshot
+	
+  Scenario: Forgot Password
+	Given User Clicks Forgot Password
+	When User Gives Valid Data
+	Then Assert the Result
