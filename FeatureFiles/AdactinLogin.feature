@@ -11,6 +11,10 @@ Feature: Checking Login Functions
     Then Take Scrrenshot
     And Assert the Result
 	
+Scenario: Forgot Password
+	Given User Clicks Forgot Password
+	When User Gives Valid Data
+	Then Assert the Result
 
 
 
