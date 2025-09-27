@@ -3,6 +3,7 @@ Background: Background Execution
 Given Background Given
 @Sanity
 @Smoke
+@Regression
   Scenario: Execution of Hook Class one
     Given Given Statement one
     When When Statement one

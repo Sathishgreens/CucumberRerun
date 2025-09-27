@@ -145,7 +145,7 @@ public class BaseClass {
 	}
 	public static void switchToDefault() {
 		driver.switchTo().defaultContent();
-	}
+	} 
 	public static void switchToWindow(String nameOrHandle) {
 		driver.switchTo().window(nameOrHandle);
 	}

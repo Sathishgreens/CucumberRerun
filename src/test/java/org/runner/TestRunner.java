@@ -6,13 +6,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"C:\\Users\\Lenovo\\eclipse-workspace"
-		+ "\\CucumberPractice\\FeatureFiles\\AdactinLogin.feature",
-		"C:\\Users\\Lenovo\\eclipse-workspace\\CucumberPractice\\"
-		+ "FeatureFiles\\ff.feature"},
-glue= {"org.stepdefinitions","org.hooks"},dryRun=false,monochrome=true,
-plugin= {"pretty","html:target\\cucreport.html","json:target\\rep.json",
-		"junit:target\\report.xml","rerun:target/rerun.txt"})
+@CucumberOptions(features= "C:\\Users\\Lenovo\\eclipse-workspace\\CucumberRerun\\FeatureFiles\\ff.feature",
+glue= {"org.stepdefinitions"},dryRun=false,monochrome=true,
+plugin= {"html:target\\cucreport.html","json:target\\rep.json",
+		"junit:target\\report.xml","rerun:target/rerun.txt"},
+tags = "@A")
 public class TestRunner {
 
 }

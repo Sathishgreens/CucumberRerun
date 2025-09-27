@@ -147,4 +147,20 @@ public class StepDefinition extends BaseClass {
 
 
 
+	
+	@Given("User Enters {string} and {string} as")
+	public void user_enters_and_as(String string, String string2) {
+	   System.out.println(string);
+	   System.out.println(string2);
+	}
+	@Then("Click {string} sd")
+	public void click_sd(String s) {
+		System.out.println(s);   
+	}
+
+
+
+
+
+
 }

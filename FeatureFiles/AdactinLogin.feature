@@ -1,5 +1,5 @@
 Feature: Checking Login Functions
-
+	@Regression
   Scenario Outline: Checking with Valid Credentials
     Given Facebook Website is loaded
     When User Enters userName and password 2D with Heading

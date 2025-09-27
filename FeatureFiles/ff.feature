@@ -1,11 +1,24 @@
 Feature: Checking All Login Functions
 
-  Background: Facebook Launches
-    Given Facebook URL is Launched
+  
+  Scenario Outline: Checking UserName and Password a
+    Given User Enters "<UserName>" and "<Password>" as
+    Then Click "<Login>" sd
 
-  Scenario: Checking UserName and Password
-    Given User Enters UserName and Passwordsss
-    Then Click Login
+    @Regression
+    Examples: 
+      | UserName | Password | Login |
+      | sat1     | s111     | s     |
+      | sat2     | s222     | s     |
 
-  Scenario: Checking Forgot Password
-    Given User Clicks Forgot Password
+    @Smoke
+    Examples: 
+      | UserName | Password | Login |
+      | nar1     | na11     | n     |
+      | nar2     | nar22    | n     |
+
+    @Sanity
+    Examples: 
+      | UserName | Password | Login |
+      | sadss    | sadsdf   | s     |
+      | aaa      | dff      | d     |
