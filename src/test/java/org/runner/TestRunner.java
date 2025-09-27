@@ -8,8 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features= "C:\\Users\\Lenovo\\eclipse-workspace\\CucumberRerun\\FeatureFiles\\ff.feature",
 glue= {"org.stepdefinitions"},dryRun=false,monochrome=true,
-plugin= {"html:target\\cucreport.html","json:target\\rep.json",
-		"junit:target\\report.xml","rerun:target/rerun.txt"},
+plugin= {"html:target/cucumber-html-reports","json:target\\rep.json",
+		"json:target/cucumber.json","rerun:target/rerun.txt"},
 tags = "@A")
 public class TestRunner {
 
