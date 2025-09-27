@@ -9,3 +9,15 @@ Feature: Checking Login Functions
       | Velmurugan |     9999 |
     And User Clicks Login Button
     Then Take Scrrenshot
+    And Assert the Result
+	
+Scenario: Forgot Password
+	Given User Clicks Forgot Password
+	When User Gives Valid Data
+	Then Assert the Result
+
+
+
+  Scenario: Create New Account
+	Given User Clicks Create New Account
+	Then Validate Result
